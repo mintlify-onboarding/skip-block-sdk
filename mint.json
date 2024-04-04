@@ -35,37 +35,26 @@
   "modeToggle": {
     "default": "dark"
   },
-  "topAnchor": {
-    "name": "Block SDK",
-    "icon": "code"
-  },
-  "anchors": [
-    {
-      "name": "Home",
-      "icon": "house",
-      "url": "https://skip.mintlify.app"
-    }
-  ],
   "navigation": [
     {
       "group": "Block SDK",
       "pages": [
-        "docs/overview",
-        "docs/integrate",
-        "docs/how-it-works",
-        "docs/for-searchers",
+        "overview",
+        "integrate",
+        "how-it-works",
+        "for-searchers",
         {
           "group": "Lane App Store",
           "pages": [
             {
               "group": "Choose Your Lanes",
               "pages": [
-                "docs/lane-app-store/choose-your-lanes/mev-lane",
-                "docs/lane-app-store/choose-your-lanes/free-lane",
-                "docs/lane-app-store/choose-your-lanes/custom-fee-market-lane"
+                "lane-app-store/choose-your-lanes/mev-lane",
+                "lane-app-store/choose-your-lanes/free-lane",
+                "lane-app-store/choose-your-lanes/custom-fee-market-lane"
               ]
             },
-            "docs/lane-app-store/build-your-own-lane"
+            "lane-app-store/build-your-own-lane"
           ]
         }
       ]
